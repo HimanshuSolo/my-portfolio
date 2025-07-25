@@ -1,10 +1,59 @@
-import { Button } from "@/components/ui/button";
+'use client'
+import { useState } from 'react'
+import { Dialog, DialogPanel } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Dashboard from '@/components/Dashboard';
+
+import './globals.css'
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'] });
+const navigation = [
+  { name: 'Resume', href: 'https://drive.google.com/file/d/1bZQov2p7FEoFg6r7OAeLDQKRi0RjqjE_/view?usp=sharing' },
+  { name: 'Projects', href: 'projects' },
+  { name: 'Achievements', href: '#' },
+  { name: 'Contact', href: 'contact' },
+]
+
 
 export default function Home() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-600 ">
-      <h1>Hello World</h1>
-      <Button variant="link">Click Me</Button>
+    <div className="bg-white">
+      <header className="absolute inset-x-0 top-0 z-50">
+        <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
+          <div className="flex lg:flex-1">
+            <a href="#" className="-m-1.5 p-1.5">
+              <span className="sr-only">Your Company</span>
+              <img
+                alt=""
+                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+                className="h-8 w-auto"
+              />
+            </a>
+          </div>
+          <div className="flex lg:hidden">
+            <button
+              type="button"
+              onClick={() => setMobileMenuOpen(true)}
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            >
+              <span className="sr-only">Open main menu</span>
+              <Bars3Icon aria-hidden="true" className="size-6" />
+            </button>
+          </div>
+          <div className="hidden lg:flex lg:gap-x-12">
+            {navigation.map((item) => (
+              <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900">
+                {item.name}
+              </a>
+            ))}
+          </div>
+        </nav>
+
+      </header>
+      <Dashboard />
     </div>
   );
 }
