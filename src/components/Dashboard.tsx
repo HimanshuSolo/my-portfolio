@@ -28,9 +28,11 @@ export default function Example() {
                     </div>
                     <div className="text-center">
                         <h1 className="text-sm font-semibold tracking-tight text-balance text-gray-900 sm:text-4xl">
-                            Hello, <span className="text-purple-400">I'm Himanshu</span>. I'm a full-stack developer with
-                            3rd YearBTech Student. I enjoy
-                            building sites & apps. My focus is
+                            Hello, <span className="text-purple-400">I&apos;m Himanshu</span>. 
+                            <br />
+                            I&apos;m a full-stack developer with
+                            3rd Year BTech Student. I enjoy
+                            building sites &amp; apps. My focus is
                             Next.js
                         </h1>
                         <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
