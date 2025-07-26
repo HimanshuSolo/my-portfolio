@@ -8,10 +8,11 @@
 - Next Target will be creating a div for my Profile pic on front page
 
 ---
-### Updates 
+### Updates - 26 july
 - Today I added project section
 - still photo is missing
 - I dedicated my whole time for project section today
+- At last, added a cool logo for my website
 
 ---
 
