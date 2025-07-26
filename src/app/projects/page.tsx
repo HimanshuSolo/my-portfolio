@@ -24,12 +24,12 @@ export default function MyProjects() {
       <header className="absolute inset-x-0 top-0 z-50">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto"
+                src="/him_solo.png"
+                className="h-[85px] w-auto"
               />
             </a>
           </div>
@@ -96,15 +96,16 @@ export default function MyProjects() {
 
       </header>
 
-      <div className="min-h-screen px-6 md:px-12 py-16 bg-white dark:bg-black text-black dark:text-white">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-extrabold mb-4">My Projects</h1>
+      <div className="min-h-screen px-10 mt-20 md:px-12 py-16 bg-white dark:bg-black text-black dark:text-white">
+        <div className="text-center mb-6">
+          <h1 className="text-4xl font-extrabold mb-6">My Projects</h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Explore some of the projects I&apos;ve built, ranging from AI-powered apps to responsive UIs.
             Each project includes links to the code and a live demo.
           </p>
         </div>
         {/* 3D Cards Grid */}
+
         <ThreeDCardDemo />
       </div>
     </div>
