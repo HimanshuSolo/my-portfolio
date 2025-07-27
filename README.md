@@ -16,6 +16,12 @@
 
 ---
 
+### Updates - 27 july
+- Today I made my achievement Section
+- still photo is missing lol😅
+- Thiniking of changing main home page UI.
+
+--- 
 ```bash
 npm run dev
 # or
