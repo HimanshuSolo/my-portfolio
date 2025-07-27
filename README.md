@@ -21,6 +21,12 @@
 - still photo is missing lol😅
 - Thiniking of changing main home page UI.
 
+---
+### Updates - 28 july
+- Finally added pic 😅
+- Updated Home page, more aligned now.
+- Next Target, Contact Page...
+  
 --- 
 ```bash
 npm run dev
