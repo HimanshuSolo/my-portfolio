@@ -1,5 +1,5 @@
 // tailwind.config.js
-const {heroui} = require("@heroui/theme");
+const { heroui } = require("@heroui/theme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -7,7 +7,11 @@ module.exports = {
     "./node_modules/@heroui/theme/dist/components/(card|ripple).js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        cinzel: ['var(--font-cinzel)'],
+      },
+    },
   },
   darkMode: "class",
   plugins: [heroui()],
