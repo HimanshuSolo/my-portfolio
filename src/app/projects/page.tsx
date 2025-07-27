@@ -11,7 +11,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Resume', href: 'https://drive.google.com/file/d/1bZQov2p7FEoFg6r7OAeLDQKRi0RjqjE_/view?usp=sharing' },
   { name: 'Projects', href: 'projects' },
-  { name: 'Achievements', href: '#' },
+  { name: 'Achievements', href: 'achievements' },
   { name: 'Contact', href: 'contact' },
 
 ]
@@ -104,7 +104,7 @@ export default function MyProjects() {
             Each project includes links to the code and a live demo.
           </p>
         </div>
-        {/* 3D Cards Grid */}
+
 
         <ThreeDCardDemo />
       </div>
