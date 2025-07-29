@@ -17,9 +17,7 @@ export default function Example() {
                 />
             </div>
 
-            {/* Main content container */}
             <div className="relative isolate px-6 pt-20 pb-32 lg:px-8 lg:pt-32">
-                {/* Resume badge */}
                 <div className="flex justify-center mb-12">
                     <div className="rounded-full bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 ring-1 ring-gray-300 hover:ring-purple-300 transition">
                         My Resume{' '}
@@ -34,9 +32,7 @@ export default function Example() {
                     </div>
                 </div>
 
-                {/* Hero section grid */}
                 <div className="mx-auto max-w-7xl flex flex-col-reverse lg:flex-row items-center justify-between gap-16 px-4 lg:px-0">
-                    {/* Left: Intro */}
                     <div className="w-full lg:w-1/2 text-center lg:text-left">
                         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 leading-tight">
                             <TextGenerateEffectDemo />
@@ -53,7 +49,6 @@ export default function Example() {
                             I also like exploring world of AI and machine learning.
                         </p>
 
-                        {/* CTA buttons */}
                         <div className="mt-8 flex flex-col sm:flex-row items-center gap-4 sm:gap-6 justify-center lg:justify-start">
                             <a
                                 href="projects"
@@ -70,10 +65,9 @@ export default function Example() {
                         </div>
                     </div>
 
-                    {/* Right: Profile Image */}
                     <div className="w-full lg:w-1/2 flex justify-center">
                         <img
-                            src="/portfoliophoto.jpg" // make sure it's in the public/ folder
+                            src="/portfoliophoto.jpg" 
                             alt="Himanshu Profile"
                             className="w-64 h-64 sm:w-72 sm:h-72 rounded-full object-cover border-4 border-purple-200 shadow-lg hover:shadow-xl transition duration-300"
                         />
