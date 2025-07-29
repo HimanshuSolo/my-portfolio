@@ -26,6 +26,10 @@
 - Finally added pic 😅
 - Updated Home page, more aligned now.
 - Next Target, Contact Page...
+
+### Updates - 30 july
+- Today i completed my integration of contact page in portfolio
+- I am done with this now
   
 --- 
 ```bash
