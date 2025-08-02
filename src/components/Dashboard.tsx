@@ -1,4 +1,5 @@
 import { TextGenerateEffectDemo } from "./TextGenerateEffect"
+import TextType from "@/TextAnimations/TextType/TextType";
 
 export default function Example() {
     return (
@@ -35,7 +36,14 @@ export default function Example() {
                 <div className="mx-auto max-w-7xl flex flex-col-reverse lg:flex-row items-center justify-between gap-16 px-4 lg:px-0">
                     <div className="w-full lg:w-1/2 text-center lg:text-left">
                         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 leading-tight">
-                            <TextGenerateEffectDemo />
+
+                            <TextType
+                                text={["Hello, I'm Himanshu", "A 3rd Year BTech Student", "Full-stack developer"]}
+                                typingSpeed={75}
+                                pauseDuration={1500}
+                                showCursor={true}
+                                cursorCharacter="|"
+                            />
                         </h1>
                         <p className="mt-4 text-lg text-gray-600 leading-relaxed">
                             I love building intuitive, high-performance websites and applications using modern
@@ -67,7 +75,7 @@ export default function Example() {
 
                     <div className="w-full lg:w-1/2 flex justify-center">
                         <img
-                            src="/portfoliophoto.jpg" 
+                            src="/portfoliophoto.jpg"
                             alt="Himanshu Profile"
                             className="w-64 h-64 sm:w-72 sm:h-72 rounded-full object-cover border-4 border-purple-200 shadow-lg hover:shadow-xl transition duration-300"
                         />
