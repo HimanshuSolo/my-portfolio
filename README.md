@@ -30,6 +30,9 @@
 ### Updates - 30 july
 - Today i completed my integration of contact page in portfolio
 - I am done with this now 😮‍💨
+
+### Update - 2 Aug
+- Just changes my Headline description UI
   
 --- 
 ```bash
