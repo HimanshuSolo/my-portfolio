@@ -1,6 +1,5 @@
 import { cn } from "@/lib/utils";
 import {
-  IconAdjustmentsBolt,
   IconCloud,
   IconCurrencyDollar,
   IconEaseInOut,
@@ -13,57 +12,46 @@ import {
 export function FeaturesSectionDemo() {
   const features = [
     {
-      title: "Built for developers",
+      title: "Competetive Programming",
       description:
-        "Built for engineers, developers, dreamers, thinkers and doers.",
+        "1626 Rating(Max) on Leetcode , 1325 Rating(max. pupil) on Codeforces, 1522 Rating(Max) on CodeChef",
       icon: <IconTerminal2 />,
       link: "https://codolio.com/profile/himanshu_solo",
     },
     {
-      title: "Ease of use",
+      title: "Order Capital Round 1 hosted by Codeforces",
       description:
-        "It's as easy as using an Apple, and as expensive as buying one.",
+        "Secured a Rank of 2511 out of 25000+ Participants",
       icon: <IconEaseInOut />,
-      link: "/ease-of-use",
+      link: "https://drive.google.com/file/d/139a15IZUTwnoXNYz5ZO8sV3geZC7pFGW/view?usp=sharing",
     },
     {
-      title: "Pricing like no other",
+      title: "CodeNite 2025 hosted by Codeforces",
       description:
-        "Our prices are best in the market. No cap, no lock, no credit card required.",
-      icon: <IconCurrencyDollar />,
-      link: "/pricing",
+        "Secure a Rank of 5185 out of 28000+ Participants",
+      icon: <IconTerminal2 />,
+      link: "https://drive.google.com/file/d/117gbUxPSeu1Emr-ebG4rK68XTIutXKmP/view?usp=sharing",
     },
     {
-      title: "100% Uptime guarantee",
-      description: "We just cannot be taken down by anyone.",
+      title: "Hackathon",
+      description:
+        "Finished under Top 20 Team at Zenith, Hackathon organized by 'Manan : A Techno Surge' at JCBUST",
       icon: <IconCloud />,
-      link: "/uptime",
+      link: "https://drive.google.com/file/d/1KZ1NFX75s7acZc_gzwRHUNXvKlPNeNB3/view?usp=sharing",
     },
     {
-      title: "Multi-tenant Architecture",
-      description: "You can simply share passwords instead of buying new seats",
+      title: "Deloitte Australia Technology Job Simulation on Forage - June 2025",
+      description:
+        "Completed a job simulation involving development and coding and Wrote a proposal for creating a dashboard",
       icon: <IconRouteAltLeft />,
-      link: "/multi-tenant",
+      link: "https://drive.google.com/file/d/1S8awwd129laupgmB-BX_YjOpiqcnCVtX/view?usp=sharing",
     },
     {
-      title: "24/7 Customer Support",
+      title: "Samsung Solve for Tomorrow",
       description:
-        "We are available a 100% of the time. Atleast our AI Agents are.",
-      icon: <IconHelp />,
-      link: "/support",
-    },
-    {
-      title: "Money back guarantee",
-      description:
-        "If you donot like EveryAI, we will convince you to like us.",
-      icon: <IconAdjustmentsBolt />,
-      link: "/guarantee",
-    },
-    {
-      title: "And everything else",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
+        "Certificate of Participation in Samsung Solve for Tomorrow 2025 : ",
       icon: <IconHeart />,
-      link: "/everything-else",
+      link: "https://drive.google.com/file/d/1d-CKcaMpMQhfXNE6B_5_nqszfdW9Hf8W/view?usp=sharing",
     },
   ];
   return (
