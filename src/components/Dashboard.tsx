@@ -1,4 +1,3 @@
-import { TextGenerateEffectDemo } from "./TextGenerateEffect"
 import TextType from "@/TextAnimations/TextType/TextType";
 
 export default function Example() {
@@ -35,7 +34,6 @@ export default function Example() {
                 <div className="mx-auto max-w-7xl flex flex-col-reverse lg:flex-row items-center justify-between gap-16 px-4 lg:px-0">
                     <div className="w-full lg:w-1/2 text-center lg:text-left">
                         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 leading-tight">
-
                             <TextType
                                 text={["Hello, I'm Himanshu", "A 3rd Year BTech Student", "Full-stack developer"]}
                                 typingSpeed={75}
