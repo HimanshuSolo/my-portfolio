@@ -4,6 +4,7 @@ import { useState } from 'react'
 import '../globals.css';
 import { CardHoverEffectDemo } from '@/components/achieveList';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { FeaturesSectionDemo } from '@/components/features-section-demo-3';
 
 
 const navigation = [
@@ -101,7 +102,7 @@ export default function achievements() {
                     </p>
                 </div>
 
-                <CardHoverEffectDemo />
+                <FeaturesSectionDemo />
             </div>
         </div>
     )

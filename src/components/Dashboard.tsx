@@ -4,7 +4,6 @@ import TextType from "@/TextAnimations/TextType/TextType";
 export default function Example() {
     return (
         <div className="relative bg-white">
-            {/* Decorative background blur */}
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -51,7 +50,7 @@ export default function Example() {
                             <span className="text-purple-600 font-medium">Node.js</span>. I thrive on solving real-world problems with elegant code. Love solving Data Structures and Algorithms problems.
                         </p>
                         <p className="mt-4 text-lg text-gray-600 leading-relaxed">
-                            In my free time, I enjoy exploring new technologies and contributing to open-source projects.
+                            Im my free time, I enjoy exploring new technologies and contributing to open-source projects.
                         </p>
                         <p className="mt-4 text-lg text-gray-600 leading-relaxed">
                             I also like exploring world of AI and machine learning.
@@ -83,7 +82,6 @@ export default function Example() {
                 </div>
             </div>
 
-            {/* Bottom blur */}
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
