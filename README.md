@@ -33,6 +33,9 @@
 
 ### Update - 2 Aug
 - Just changes my Headline description UI
+
+### Update 13 Sep - Long time no see huh!!
+- Changing some ui for achievement section
   
 --- 
 ```bash
