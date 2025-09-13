@@ -4,6 +4,7 @@ import { useState } from 'react'
 import '../globals.css';
 import { ThreeDCardDemo } from '@/components/ProjectPage';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { TimelineDemo } from '@/components/timeline-Comp';
 
 
 
@@ -51,7 +52,6 @@ export default function MyProjects() {
             ))}
           </div>
         </nav>
-        {/* Mobile menu */}
         {mobileMenuOpen && (
           <div className="lg:hidden">
             <div className="fixed inset-0 z-50 bg-black bg-opacity-25" onClick={() => setMobileMenuOpen(false)} />
@@ -84,7 +84,6 @@ export default function MyProjects() {
                         onClick={() => setMobileMenuOpen(false)}
                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                       >
-                        {item.name}
                       </a>
                     ))}
                   </div>
@@ -104,6 +103,7 @@ export default function MyProjects() {
             Each project includes links to the code and a live demo.
           </p>
         </div>
+        <TimelineDemo />
 
 
         <ThreeDCardDemo />
