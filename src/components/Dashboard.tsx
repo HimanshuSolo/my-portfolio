@@ -21,7 +21,7 @@ export default function Example() {
                     <div className="rounded-full bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 ring-1 ring-gray-300 hover:ring-purple-300 transition">
                         My Resume{' '}
                         <a
-                            href="https://drive.google.com/file/d/1bZQov2p7FEoFg6r7OAeLDQKRi0RjqjE_/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1aapBSER8uxLN_e7HNMf2n9OEASSfcxzX/view?usp=sharing"
                             className="text-indigo-600 hover:text-indigo-700 font-semibold"
                             target="_blank"
                             rel="noopener noreferrer"
