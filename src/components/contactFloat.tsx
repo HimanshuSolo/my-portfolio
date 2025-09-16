@@ -48,7 +48,7 @@ export function FloatingDockDemo() {
             icon: (
                 <IconBrandLeetcode className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "https://leetcode.com/u/Himanshu_192005//",
+            href: "https://leetcode.com/u/HimanshuSolo/",
         },
     ];
 
