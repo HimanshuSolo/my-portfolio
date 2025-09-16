@@ -10,7 +10,7 @@ import { TimelineDemo } from '@/components/timeline-Comp';
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Resume', href: 'https://drive.google.com/file/d/1bZQov2p7FEoFg6r7OAeLDQKRi0RjqjE_/view?usp=sharing' },
+  { name: 'Resume', href: 'https://drive.google.com/file/d/1aapBSER8uxLN_e7HNMf2n9OEASSfcxzX/view?usp=sharing' },
   { name: 'Projects', href: 'projects' },
   { name: 'Achievements', href: 'achievements' },
   { name: 'Contact', href: 'contact' },
